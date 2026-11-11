@@ -8,7 +8,7 @@ elif nama == "Citra" :
     target == 80
 else :
     print("Nama Mahasiswa :", nama)
-    ANprint("target nilai :", target)
+    print("target nilai :", target)
 
 ulang = 1
 lulus = False
