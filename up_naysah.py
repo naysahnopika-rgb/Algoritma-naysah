@@ -6,7 +6,7 @@ stok = int(input("Masukkan jumlah stok awal : "))
 lanjut = "y"
 while lanjut.lower() == "y":
 
-    print("\n--- Pilih Transaksi ---")
+    print("--- Pilih Transaksi ---")
     print("1. Barang Masuk")
     print("2. Barang Keluar")
     pilihan = input("Pilihan (1/2): ")
@@ -31,7 +31,7 @@ while lanjut.lower() == "y":
     print("Stok", nama_barang, "saat ini:", stok)
     lanjut = input("\nLakukan transaksi lagi? : ")
 
-print("\n=== HASIL AKHIR ===")
+print("=== HASIL AKHIR ===")
 print("Nama barang :", nama_barang)
 print("Stok akhir  :", stok)
 print("Terima kasih!")
